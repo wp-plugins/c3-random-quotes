@@ -3,7 +3,7 @@ Contributors: creed3
 Donate link: http://development.creed3.com/?scripts
 Tags: random, quote
 Requires at least: 4.0
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,7 +22,7 @@ Hat tip to Scott Ball, creator of the Super Simple Random Quotes plugin, from wh
 
 = Features: =
 
-* Easy user management of quotes in a private WordPress page, as you would in a word processor.
+* Easy user management of quotes in a private WordPress page.
 * Provides a default quote to display until you can assemble your list of quotes.
 * Settings allow control over quote appearance.
 * Allows for the leading quotation mark to be normal text or to display an exaggerated quotation mark image.

@@ -2,8 +2,8 @@
 /*
 Plugin Name: c3 Random Quotes
 Plugin URI: http://www.creed3.com/
-Description: Selects a random quote and displays it in a WordPress sidebar.
-Version: 1.0
+Description: Selects a random quote and displays it in a Wordpress sidebar.
+Version: 1.0.1
 Author: creed3 : Scott Hampton
 Author URI: http://www.creed3.com
 License: GPLv2
@@ -31,9 +31,9 @@ class c3rq_widget extends WP_Widget {
  
 	// Constructor //
 	
-    function c3rq_widget() {
+    function __construct() {
     	load_plugin_textdomain('c3rq', false, dirname(plugin_basename(__FILE__)) . '/languages/');
-        parent::WP_Widget(false, $name = __('c3 Random Quotes', 'c3rq'), array('description' => __('Selects a random quote and displays it in a Wordpress sidebar.', 'c3rq')) );	
+        parent::__construct(false, $name = __('c3 Random Quotes', 'c3rq'), array('description' => __('Selects a random quote and displays it in a Wordpress sidebar.', 'c3rq')) );	
     }
 
 	// Extract Args //
